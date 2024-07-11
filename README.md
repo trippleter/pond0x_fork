@@ -10,6 +10,11 @@ So, I found an arbitrage opportunity: what if I take the majority of supply from
 Thus, this code creates a simple contract that transfers PNDX from top holder of (46% of the total supply), and loop-swaps the acquired tokens. 
 It uses a fork of Ethereum Mainnet to test if it actually works with the given pool reserves. (spoiler: the price is too low)
 
+First install Harhdat and Tracer:
+```
+npm i hardhat
+npm i hardhat-tracer
+```
 
 TO RUN WITH TRACES CALL:
 ```
@@ -23,3 +28,6 @@ npx hardhat run scripts/pond0x_no_tracing.js
 ```
 
 (ankr public node is used in config)
+
+
+
