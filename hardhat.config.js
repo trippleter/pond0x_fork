@@ -9,7 +9,7 @@ module.exports = {
     hardhat: {
       forking: {
         url: 'https://rpc.ankr.com/eth',
-        blockNumber: 20282673
+        blockNumber: 20282673 // comment for latest
       },
     }
   },
